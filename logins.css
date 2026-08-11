@@ -6,6 +6,23 @@ body {
     flex-direction: column;
 
 }
+form {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content:center;
+    background:white;
+    color: black;
+    gap: 30px;
+    border-radius: 20px;
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
 .container {
      display: flex;
      flex-direction: row;
@@ -35,7 +52,8 @@ video {
     border: 4 solid blue;
     border-radius: 20px;
     justify-content: center;
-    align-items: center;
-    margin-top: 70px;
-    margin-left: 400px;
+}
+iframe {
+    border: 5 solid black;
+    border-radius: 20px;
 }
