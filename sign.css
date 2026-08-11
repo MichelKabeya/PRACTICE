@@ -123,6 +123,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 }
 form[name="review"] {
     background: white;
+    position:sticky;
     display: flex;
     flex-direction: row;
     justify-content: center;
