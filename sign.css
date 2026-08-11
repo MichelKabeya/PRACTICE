@@ -121,3 +121,12 @@ input[type="text"], input[type="email"], input[type="password"] {
     background-color: #971997;
     transition: 0.5s;
 }
+form.review {
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+    width: 900px;
+    height: auto;
+}
