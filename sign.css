@@ -1,0 +1,123 @@
+body {
+    background:linear-gradient(
+        to right, #110361, #971997
+    );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    font-size: 40px;
+    color: white;
+    margin-top: -20px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 15px;
+    font-size: 20px;
+    color:white;
+    font-family: Verdana;
+    margin-top: 15px;
+    align-self: flex-end;
+    margin-right: 20px;
+}
+form {
+    font-family: verdada;
+    background-color: white;
+    padding-top: 5px;
+    width: 280px;
+    height: auto;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1 10px 30px rgba(0,0,0,0.2);
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    border-color: black;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size:12px;
+    width: 190px;
+    height: 12px;
+}
+.name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    gap: 10px;
+}
+.email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    gap: 10px;
+}
+.error, .success {
+    display:none;
+    font-size: 15px;
+    margin: 5px 0 0;
+    font-family: inherit;
+}
+.field:has(input:invalid:not(:placeholder-shown)) input {
+    border-color: red;
+}
+.field:has(input:invalid:not(:placeholder-shown)) .error {
+    display: block;
+    color: red;
+}
+.field:has(input:valid:not(:placeholder-shown)) input {
+    border-color: green;
+}
+.field:has(input:valid:not(:placeholder-shown)) .success {
+    display: block;
+    color: green;
+}
+.password {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 25px;
+    gap: 10px;
+}
+.confirm {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    font-size: 12px;
+    width: 220px;
+    cursor: pointer;
+}
+
+.confirm p {
+    margin: 0 0 2px 0;
+}
+.go {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #1f74dc;
+    padding: 10px;
+    border-radius: 25px;
+    height: 20px;
+    width: 70px;
+    text-decoration: none;
+}
+.go:hover {
+    background-color: #971997;
+    transition: 0.5s;
+}
