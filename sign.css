@@ -121,12 +121,31 @@ input[type="text"], input[type="email"], input[type="password"] {
     background-color: #971997;
     transition: 0.5s;
 }
-form.review {
+form[name="review"] {
     background: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border-radius: 20px;
-    width: 900px;
-    height: auto;
+    margin-top: 10px;
+    gap: 200px;
+    font-family: Verdana;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 1250px;
+    height: 40px;
+
+}
+button[name="survey"] {
+    background-color: #1f74dc;
+    color: white;
+    border: 1 solid black;
+    border-radius: 15px;
+    width: 50px;
+    height: 12px;
+    cursor: pointer;
+}
+button[name="survey"]:hover {
+    background-color: #971997;
+    transition: 0.5s;
+
 }
