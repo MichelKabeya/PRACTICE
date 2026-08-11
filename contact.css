@@ -20,20 +20,26 @@ body {
 }
 form {
      display: flex;
-     flex-direction: column;
-     align-self: flex-start;
+     flex-direction: row;
+     align-self: center;
      justify-content:center;
      background:white;
      color: black;
-     margin-left:300px;
+     gap: 30px;
      margin-top: 60px0px;
      padding-top: 40px;
-     padding-left: 70px;
+     padding-left: -10px;
      padding-bottom: 40px;
-     width: 600px;
+     width: 900px;
      height: auto;
      border-radius: 20px;
      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.contact {
+     display: flex;
+     flex-direction: column;
+     align-items: left;
+     justify-content: center;
 }
 .address {
      display: flex;
@@ -71,4 +77,9 @@ img:hover {
     background-color:rgb(241, 110, 106);
     transition: 0.5s;
 
+}
+iframe {
+     border: 5 solid black;
+     border-radius: 20px;
+     
 }
