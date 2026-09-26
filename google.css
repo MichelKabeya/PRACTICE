@@ -5,3 +5,23 @@ body {
     display: flex;
     flex-direction: column;
 }
+nav {
+    background-color: aliceblue;
+    width: auto;
+    height: 45px;
+    border-radius: 15px;
+}
+h2 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+}
+.story {
+    color: black;
+    background-color: #fff;
+    height: 200px;
+    width: 500px;
+    overflow: auto;
+    justify-content: center;
+    margin: 15%;
+}

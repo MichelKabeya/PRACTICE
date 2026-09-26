@@ -42,7 +42,7 @@ form {
 input[type="text"], input[type="email"], input[type="password"] {
     border-color: black;
     border-radius: 15px;
-    border: 1px solid black;
+    border: 1px solid rgb(39, 112, 221);
     padding: 10px;
     font-size:12px;
     width: 190px;
@@ -149,7 +149,7 @@ button {
 }
 button[name="survey"]:hover {
     background-color: #971997;
-    transform: scale(1.2);
+    transform: scale(1.4);
     transition: 0.5s;
 
 }
